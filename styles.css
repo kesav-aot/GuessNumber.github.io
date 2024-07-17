@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #gameStatus {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+  #lastResult {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #lowOrHi {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  #guesses {
+    margin-bottom: 10px;
+  }
+  
